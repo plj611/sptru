@@ -15,18 +15,18 @@ $FeedAckTable = $null
 $RecordSentTable = $null
 $RecordReceiveTable = $null
 
-$NotVert = ".\server\TRU\notprocessed\verification"
-$NotAck = ".\server\TRU\notprocessed\verify_ack"
-$Vert = ".\server\TRU\processed\verification"
-$Ack = ".\server\TRU\processed\verify_ack"
-$ErrVert = ".\server\TRU\error\verification"
-$ErrAck = ".\server\TRU\error\verify_ack"
-$TempDir = ".\server\TRU\temp"
+$NotVert = ".\TRU\notprocessed\verification"
+$NotAck = ".\TRU\notprocessed\verify_ack"
+$Vert = ".\TRU\processed\verification"
+$Ack = ".\TRU\processed\verify_ack"
+$ErrVert = ".\TRU\error\verification"
+$ErrAck = ".\TRU\error\verify_ack"
+$TempDir = ".\TRU\temp"
 $CurrentACKFile = $null
 $MailRelay = "smtp.   "
 $MailSender = "TRU-EDI@"
 $MailRecipient = "patrick.law@"
-$Logfile = ".\server\TRU\__logfile.txt"
+$Logfile = ".\TRU\__logfile.txt"
 $SendLog = $true
 
 $CodeDesc = @{"000"="VERIFICATION SUCCESS";

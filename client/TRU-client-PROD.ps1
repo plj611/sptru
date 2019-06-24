@@ -1,6 +1,6 @@
 #Gobal variables
 # the wsdl uri
-$uri = 
+$uri = "https://teams./packaging/tru/_vti_bin/Lists.asmx?wsdl"` 
 #
 $listname = "Item_Verification"
 

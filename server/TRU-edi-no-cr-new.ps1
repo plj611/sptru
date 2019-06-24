@@ -1,5 +1,5 @@
-. .\prog\Server\TRU-config.ps1
-. .\prog\common\CSAccess.ps1
+. .\TRU-config.ps1
+. ..\prog\common\CSAccess.ps1
 
 ################################
 # Set non-stopping error to STOP
