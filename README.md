@@ -4,14 +4,5 @@ This implementation uses the Sharepoint client object model to manipulate the Sh
 
 The directory structure for the server is
 
-├───error
-│   ├───veirify_ack
-│   └───verification
-├───notprocessed
-│   ├───verification
-│   └───verify_ack
-├───processed
-│   ├───verification
-│   └───verify_ack
-└───temp
-    └───verify_ack
+![tree](images/tree.jpg)
+
